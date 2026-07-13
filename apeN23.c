@@ -46,6 +46,7 @@ int main(){
     return 0;
 }
 
+//Funcion de Ingresar los Datos
 void completarMatrices(int matriz[FI][CO]){
     int x, y;
     for(x = 0; x < FI; x++){
@@ -56,6 +57,8 @@ void completarMatrices(int matriz[FI][CO]){
     }
 }
 
+
+//Funcion de Suma
 void sumaMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultado[FI][CO]){
     int x, y;
     for(x = 0; x < FI; x++){
@@ -65,6 +68,7 @@ void sumaMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultado[FI][CO])
     }
 }
 
+//Funcion de Resta
 void restaMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultado[FI][CO]){
     int x, y;
     for(x = 0; x < FI; x++){
@@ -75,6 +79,7 @@ void restaMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultado[FI][CO]
     }
 }
 
+//Funcion de Multiplicacion
 void multiplicacionMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultado[FI][CO]){
     int x, y;
     for(x = 0; x < FI; x++){
@@ -84,6 +89,7 @@ void multiplicacionMatriz(int matriz1[FI][CO], int matriz2[FI][CO], int resultad
     }
 }
 
+//Funcion de Resultados
 void mostrarResultado(int matriz[FI][CO]){
     int x, y;
     for(x = 0; x < FI; x++){
